@@ -1,3 +1,6 @@
+---
+published: true
+---
 If two people wants to talk to each other they must follow some rules which will make  communication  effectuve ,rules include  common language known to both parties,grammer,speed ...etc,likewise two computers can talk to each other by following the rules.
 rules for computer communiation
 end device must encode the data to either signals or waves based on media it has connected to,if wired media connected to an end device it will convert data to signals if wireless media connected to an end device it will convert it to waves [message encoding]
