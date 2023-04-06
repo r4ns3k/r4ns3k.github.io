@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 ## Switch:
 
 computers can connect to switch using ethernet cables
