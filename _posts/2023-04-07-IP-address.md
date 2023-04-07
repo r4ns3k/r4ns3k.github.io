@@ -2,15 +2,14 @@
 published: true
 ---
 
-lets see ip address of ur device first
+lets see ip address of our devices first
 ## windows users
 open command prompt and type ipconfig
 you can see IPv4 address and IPv6 in the window
 ## Linux users 
 open terminal and type ip a
-based on ur interface u can see ip address if wifi see under wlp6s0 or if ethernet based connection see under enp7s0  u can see ur private ip address beside 
-inet .
-ex inet 192.168.1.2
+based on ur interface u can see ip address if wifi see under wlp6s0 or if ethernet based connection see under enp7s0  u can see ur private ip address beside inet .<br>
+ex `inet 192.168.1.2`
 
 That's for practical  
 
