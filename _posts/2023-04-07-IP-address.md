@@ -16,11 +16,11 @@ That's for practical
 
 Now let's go into theory part
 
-As we can see ip address is a just series of numbers seperated by comma
+As we can see ip address is a just series of numbers seperated by period/dot
 
 In a computer network every device is identified with the help of ip address
 
-Ip address is of 32 bit in length divided into 4 sections each is of 8 bit long seperated by comma
+Ip address is of 32 bit in length divided into 4 sections each is of 8 bit long seperated by period/dot
 
 Ex: 192.168.1.2
 
