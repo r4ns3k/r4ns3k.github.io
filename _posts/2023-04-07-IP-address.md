@@ -25,7 +25,7 @@ Ex: 192.168.1.2
 
 Ip address represented in dotted decimal form
 
-we cant say binary right of 32 bits so we can converted it into decimal
+we cant say/remember binary right of 32 bit long, so we can converted it into decimal
 
 see conversion
 
