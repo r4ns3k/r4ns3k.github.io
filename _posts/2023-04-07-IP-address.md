@@ -14,7 +14,7 @@ That's for practical,now let's go into theory part
 
 As we can see ip address is a just series of numbers seperated by period/dot.
 
-==In a [computer network](https://r4ns3k.github.io/What-the-heck-is-computer-networks/) every device is identified with the help of ip address==
+In a [computer network](https://r4ns3k.github.io/What-the-heck-is-computer-networks/) every device is identified with the help of ip address
 
 Ip address is of 32 bit in length divided into 4 sections each is of 8 bit long seperated by period/dot.
 
