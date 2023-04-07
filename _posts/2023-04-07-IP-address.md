@@ -1,4 +1,6 @@
-
+---
+published: true
+---
 
 lets see ip address of ur device first
 ## windows users
