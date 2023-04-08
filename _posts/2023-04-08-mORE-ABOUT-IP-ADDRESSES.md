@@ -19,9 +19,9 @@ range of 32 bits <br>
 
 Initially they have choosen first 8 bits for network address remaining 24 bits for host addresses<br>
 with that we will get 2^8 networks ,2^24 hosts per network<br>
-256 networks not enough so cllassful addresses came
+256 networks not enough so classful addresses came
 
-## classful classficatio
+## classful classfication
 in classful addressing they are 5 diffrent classes class A,B,C,D,E.
 
 Lets go through the difrrent classes
