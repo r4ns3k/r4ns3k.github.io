@@ -3,7 +3,7 @@
 ---
 
 As we have seen in previous post ip address is of 32 bits <br>
-for 32 bits,we will get 2^32 diffrent ip addresses,by using formula 2^n  (n is the number of bits)
+With 32 bits,we will get 2^32 diffrent ip addresses,by using formula 2^n  (n is the number of bits)
 
 ip address is combination of two addresses in one address ,they are<br>
 1.device address<br>
