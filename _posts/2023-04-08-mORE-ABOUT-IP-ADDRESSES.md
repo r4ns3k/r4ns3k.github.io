@@ -1,3 +1,7 @@
+---
+  published: false
+---
+
 As we have seen in previous post ip address is of 32 bits <br>
 for 32 bits,we will get 2^32 diffrent ip addresses,by using formula 2^n  (n is the number of bits)
 
@@ -33,8 +37,8 @@ with that we will get 2^8 networks ,2^24 hosts per network
 ## range <br>
  00000000 - 0<br>
  00000001 - 1<br>
-     .
-     .
+     .<br>
+     .<br>
  01111111 - 127
      
 range can be 0-127 but the practical range can be 1-126
@@ -52,8 +56,9 @@ with that we will get 2^16 networks ,2^16 hosts per network
 ## range 
  10000000 - 128<br>
  10000001 - 129<br>
-     .
-     .
+     .<br>
+     .<br>
+     .<br>
  10111111 - 191
      
 range can be 128-191
@@ -71,8 +76,8 @@ with that we will get 2^24 networks ,2^8 hosts per network
 ## range 
  11000000 - 192<br>
  11000001 - 193<br>
-     .
-     .
+     .<br>
+     .<br>
  11011111 - 223
      
 range can be 192-223
