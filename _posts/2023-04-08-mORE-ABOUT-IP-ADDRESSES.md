@@ -6,8 +6,7 @@ ip address is combination of two addresses in one address ,they are
 2.network address in which device in
 for example if we have address 200.0.0.1 which is device ip address ,then network address will be 200.0.0.0
 NOTE: ALways first ip address is used for network address,last adresss ip is used for broadcast address.
-    
-                             Binaary                      Decimal
+
 range of 32 bits 00000000.00000000.00000000.00000000 - 0.0.0.0
                  11111111.11111111.11111111.11111111 -255.255.255.255
                  
