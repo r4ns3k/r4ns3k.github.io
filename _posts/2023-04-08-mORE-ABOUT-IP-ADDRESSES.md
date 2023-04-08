@@ -30,8 +30,8 @@ Lets go through the difrrent classes
 same as initial classification here also they have choosen first 8 bits for network address remaining 24 bits for host addresses<br>
 with that we will get 2^8 networks ,2^24 hosts per network
 
- nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh
- n- network
+ nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh<br>
+ n- network<br>
  h - hosts
  
  NOTE:The first octet first bit is fxed and set to 0<br>
