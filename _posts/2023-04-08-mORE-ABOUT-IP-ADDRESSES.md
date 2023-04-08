@@ -30,8 +30,9 @@ Lets go through the difrrent classes
 same as initial classification here also they have choosen first 8 bits for network address remaining 24 bits for host addresses<br>
 with that we will get 2^8 networks ,2^24 hosts per network
 
- xxxxxxxx.xxxxxxxx.xxxxxxxx.xxxxxxxx<br>
- |--NID--||-----------HID----------|<br>
+ nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh
+ n- network
+ h - hosts
  
  NOTE:The first octet first bit is fxed and set to 0<br>
 ## range <br>
@@ -49,8 +50,8 @@ range 1.0.0.0 - 126.0.0.0
 In classB they have choosen first  16 bits for network address remaining 16 bits for host addresses<br>
 with that we will get 2^16 networks ,2^16 hosts per network
 
- xxxxxxxx.xxxxxxxx.xxxxxxxx.xxxxxxxx<br>
- |----NID---------|----HID---------|<br>
+nnnnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh
+
  
  The first octet first two bits are fxed and set to 10<br>
 ## range 
@@ -69,8 +70,7 @@ range 128.0.0.0 - 191.255.0.0
 In classC they have choosen first  24 bits for network address remaining 8 bits for host addresses<br>
 with that we will get 2^24 networks ,2^8 hosts per network
 
- xxxxxxxx.xxxxxxxx.xxxxxxxx.xxxxxxxx<br>
- |----NID------------------|---HID--|<br>
+ nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh
  
  The first octet first three bits are fxed and set to 110<br>
 ## range 
