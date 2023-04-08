@@ -86,7 +86,7 @@ range 192.0.0.0 - 223.255.255.0
 
 
 Now we can say which class the ip belongs to by seeing its range<br>
-classA 1-127<br>
+classA 1-126<br>
 ClassB 128-191<br>
 class c 192-223<br>
 
