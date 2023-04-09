@@ -31,7 +31,7 @@ same as initial classification here also they have choosen first 8 bits for netw
 with that we will get 2^8 networks ,2^24 hosts per network
 
  nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh<br>
- n- network<br>
+ n- networks<br>
  h - hosts
  
  NOTE:The first octet first bit is fxed and set to 0<br>
@@ -43,8 +43,8 @@ with that we will get 2^8 networks ,2^24 hosts per network
  01111111 - 127
      
 range can be 0-127 but the practical range can be 1-126
-
-range 1.0.0.0 - 126.0.0.0
+0.0.0.0 , 127.0.0.0 addresses are reserved
+usable ip space: 1.0.0.0 - 126.0.0.0
 
 ## class B<br>
 In classB they have choosen first  16 bits for network address remaining 16 bits for host addresses<br>
