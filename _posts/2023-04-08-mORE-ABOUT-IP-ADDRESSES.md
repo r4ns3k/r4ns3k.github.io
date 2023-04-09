@@ -28,29 +28,30 @@ Lets go through the difrrent classes
 
 ## class A
 same as initial classification here also they have choosen first 8 bits for network address remaining 24 bits for host addresses<br>
-with that we will get 2^8 networks ,2^24 hosts per network
 
- nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh<br>
- n- networks<br>
- h - hosts
+ fnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh<br>
+ f-fixed bit
+ n- network bits
+ h - host bits
  
  NOTE:The first octet first bit is fxed and set to 0<br>
+ 
 ## range <br>
  00000000 - 0<br>
  00000001 - 1<br>
      .<br>
      .<br>
  01111111 - 127
-     
+     total networks = 2^7
+     totla no. of hosts can be configured /network =2^24
 range can be 0-127 but the practical range can be 1-126
 0.0.0.0 , 127.0.0.0 addresses are reserved
 usable ip space: 1.0.0.0 - 126.0.0.0
 
 ## class B<br>
 In classB they have choosen first  16 bits for network address remaining 16 bits for host addresses<br>
-with that we will get 2^16 networks ,2^16 hosts per network
 
-nnnnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh
+ffnnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh
 
  
  The first octet first two bits are fxed and set to 10<br>
@@ -61,7 +62,9 @@ nnnnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh
      .<br>
      .<br>
  10111111 - 191
-     
+ 
+total networks = 2^14
+     totla no. of hosts can be configured /network =2^16
 range can be 128-191
 
 range 128.0.0.0 - 191.255.0.0
@@ -70,7 +73,7 @@ range 128.0.0.0 - 191.255.0.0
 In classC they have choosen first  24 bits for network address remaining 8 bits for host addresses<br>
 with that we will get 2^24 networks ,2^8 hosts per network
 
- nnnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh
+ fffnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh
  
  The first octet first three bits are fxed and set to 110<br>
 ## range 
@@ -79,7 +82,8 @@ with that we will get 2^24 networks ,2^8 hosts per network
      .<br>
      .<br>
  11011111 - 223
-     
+     total networks = 2^21
+     totla no. of hosts can be configured /network =2^8
 range can be 192-223
 
 range 192.0.0.0 - 223.255.255.0
