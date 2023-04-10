@@ -12,14 +12,15 @@ we have 200.0.0.0 network address<br>
 by seeing first octet we can tell it's class c,and have 256 hosts,for small network it's  huge right let's divide the network into 2 subnets.
 
 if we choose one bit from binary we have divided the bits into parts<br>
+
 |0|
-|-|
+|--|
 |1|
 
 if we choose 2 bits entire bit space divided into 4 parts.
 
 |00|
-|-|
+|--|
 |01|
 |10|
 |11|
