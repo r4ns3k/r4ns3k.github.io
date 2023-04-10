@@ -37,7 +37,7 @@ same as initial classification here also they have choosen first 8 bits for netw
  NOTE:The first octet first bit is fxed and set to 0<br>
  
  total no. of ip's=2^31 
-total networks 2^7 = 128 networks = 126(practical) * total no. of hosts can be configured /network 2^24 =16 M Hosts(ips)
+total networks 2^7 = 128 networks = 126(practical) , total no. of hosts can be configured /network 2^24 =16 M Hosts(ips)
 
 ## range <br>
  00000000 - 0<br>
@@ -67,10 +67,7 @@ totla no. of hosts can be configured /network =2^16
      .<br>
      .<br>
  10111111 - 191
- total no. of ip's we get with 30 bits(32-2fixed bits)=2^30
-total networks = 2^14 =16K
-totla no. of hosts can be configured /network =2^16
-range can be 128-191
+
 
 range 128.0.0.0 - 191.255.0.0
 
@@ -88,8 +85,6 @@ with that we will get 2^24 networks ,2^8 hosts per network
      .<br>
  11011111 - 223
      total networks = 2^21
-     totla no. of hosts can be configured /network =2^8
-range can be 192-223
 
 range 192.0.0.0 - 223.255.255.0
 
@@ -100,6 +95,13 @@ ClassB 128-191<br>
 class c 192-223<br>
 
 class D,E addresses used for special purposes
+
+|       |class A|class B|class C|
+|-------|-------|-------|-------|
+|total ip's|2^31|2^30|2^29 |
+|total networks|2^7|2^14|2^21|
+|total hosts|2^24-2|2^16-2|2^8-2|
+|Range|1.0.0.0 - 126.0.0.0|128.0.0.0 - 191.255.0.0|192.0.0.0 - 223.255.255.0|
 
 
 
