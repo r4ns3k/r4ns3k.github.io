@@ -14,13 +14,13 @@ by seeing first octet we can tell it's class c,and have 256 hosts,for small netw
 if we choose one bit from binary we have divided the bits into parts<br>
 
 |0|
-|--|
+|---|
 |1|
 
 if we choose 2 bits entire bit space divided into 4 parts.
 
 |00|
-|--|
+|---|
 |01|
 |10|
 |11|
@@ -35,7 +35,7 @@ To divide network into 2 parts we need one bit ,so borrow one bit from host id<b
 
 range
 
-|subnet1|subnet2|
+|subnet1 |subnet2|
 |-------|-----|
 | 00000000 | 10000000 |
 | 01111111  | 11111111|
@@ -62,7 +62,7 @@ router will take incoming ip and do bitwise and with subnet mask to get nid to w
 # Routing table
 
 |nid |subnet mask |interface|
-|--|--|--|
+|---|---|---|
 | 200.0.0.0 | 255.255.255.128 | a | 
 | 200.0.0.128  | 255.255.255.128 | b | 
 | 0.0.0.0 | 0.0.0.0 | c |
