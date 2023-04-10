@@ -60,10 +60,11 @@ by using incomming packet router has to identify  network to which ip address be
 router will take incoming ip and do bitwise and with subnet mask to get nid to which ip belongs to in routing taable.
 
 # Routing table
+
 |nid |subnet mask |interface|
 |--|--|--|
-| 200.0.0.0 | 255.255.255.128 |a|
-| 200.0.0.128 | 255.255.255.128 | b| 
+| 200.0.0.0 | 255.255.255.128 | a | 
+| 200.0.0.128 | 255.255.255.128 | b | 
 | 0.0.0.0 | 0.0.0.0 | c |
 
 
