@@ -37,8 +37,8 @@ range
 
 |subnet1|subnet2|
 |-------|-----|
-|00000000 |10000000|
-|01111111  |11111111|
+| 00000000 | 10000000 |
+| 01111111  | 11111111|
 | 0-127 | 128-255|
 
 now we have 2 subnets one subnet contains 0-127,other 128-255
@@ -64,7 +64,7 @@ router will take incoming ip and do bitwise and with subnet mask to get nid to w
 |nid |subnet mask |interface|
 |--|--|--|
 | 200.0.0.0 | 255.255.255.128 | a | 
-| 200.0.0.128 | 255.255.255.128 | b | 
+| 200.0.0.128  | 255.255.255.128 | b | 
 | 0.0.0.0 | 0.0.0.0 | c |
 
 
