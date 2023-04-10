@@ -29,12 +29,13 @@ like wise 3 bits 8 parts (2^3=8)<br>.
 
 To divide network into 2 parts we need one bit ,so borrow one bit from host id<br>
 
-|part-1|part2|
+|part1|part2|
 |------|-----|
 |00000000 |1000000|
 
 range
-|subnet-1|subnet-2|
+
+|subnet1|subnet2|
 |-------|-----|
 |00000000 |10000000|
 |01111111  |11111111|
@@ -60,9 +61,9 @@ router will take incoming ip and do bitwise and with subnet mask to get nid to w
 
 # Routing table
 |nid |subnet mask |interface|
-|-|-|-|
-|200.0.0.0 |255.255.255.128 |a|
-|200.0.0.128| 255.255.255.128 |b|
-|0.0.0.0 |0.0.0.0 |c|
+|--|--|--|
+| 200.0.0.0 | 255.255.255.128 |a|
+| 200.0.0.128 | 255.255.255.128 | b| 
+| 0.0.0.0 | 0.0.0.0 | c |
 
 
