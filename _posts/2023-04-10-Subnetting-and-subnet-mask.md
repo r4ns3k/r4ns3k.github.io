@@ -14,7 +14,7 @@ by seeing first octet we can tell it's class c,and have 256 hosts,for small netw
 if we choose one bit from binary we have divided the bits into parts<br>
 |0|
 |-|
-|1|<br>
+|1|
 
 if we choose 2 bits entire bit space divided into 4 parts.
 
