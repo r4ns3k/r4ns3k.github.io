@@ -28,16 +28,17 @@ if we choose 2 bits entire bit space divided into 4 parts.
 like wise 3 bits 8 parts (2^3=8)<br>.
 
 To divide network into 2 parts we need one bit ,so borrow one bit from host id<br>
-|part-1|part2|<br>
-|------|-----|<br>
-00000000 |1000000|<br>
+
+|part-1|part2|
+|------|-----|
+|00000000 |1000000|
 
 range
-subnet-1|subnet-2|<br>
-|-------|-----|<br>
-|00000000 |10000000|<br>
-|01111111  |11111111|<br>
-| 0-127 | 128-255|<br>
+|subnet-1|subnet-2|
+|-------|-----|
+|00000000 |10000000|
+|01111111  |11111111|
+| 0-127 | 128-255|
 
 now we have 2 subnets one subnet contains 0-127,other 128-255
 
@@ -59,9 +60,9 @@ router will take incoming ip and do bitwise and with subnet mask to get nid to w
 
 # Routing table
 |nid |subnet mask |interface|
-|-|-|-|<br>
-|200.0.0.0 |255.255.255.128 |a|<br>
-|200.0.0.128| 255.255.255.128 |b|<br>
-|0.0.0.0 |0.0.0.0 |c|<br>
+|-|-|-|
+|200.0.0.0 |255.255.255.128 |a|
+|200.0.0.128| 255.255.255.128 |b|
+|0.0.0.0 |0.0.0.0 |c|
 
 
