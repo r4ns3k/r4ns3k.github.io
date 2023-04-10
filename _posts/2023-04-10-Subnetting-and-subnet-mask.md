@@ -1,22 +1,22 @@
-----
+---
 published: true
-----
+---
 
-Dividing big network into many smaller networks is called subnetting.
+Dividing a big network into many smaller networks is called subnetting.
 
 # advantages:
 privacy.
 
 # Example:
 we have 200.0.0.0 network address<br>
-by seeing first octet we can tell it's cllas c,and have 256 hosts,for small network itsa huge right let's divide the network into 2 subnets
+by seeing first octet we can tell it's class c,and have 256 hosts,for small network it's  huge right let's divide the network into 2 subnets.
 
 if we choose one bit from binary we have divided the bits into parts<br>
 |0|
 |-|
 |1|<br>
 
-if we choose 2 bits entire bit space divided into 4 parts
+if we choose 2 bits entire bit space divided into 4 parts.
 
 |00|
 |-|
@@ -24,7 +24,7 @@ if we choose 2 bits entire bit space divided into 4 parts
 |10|
 |11|
 
-like wise 3 bits 8 parts (2^3=8)<br>
+like wise 3 bits 8 parts (2^3=8)<br>.
 
 To divide network into 2 parts we need one bit ,so borrow one bit from host id<br>
 |part-1|part2|
