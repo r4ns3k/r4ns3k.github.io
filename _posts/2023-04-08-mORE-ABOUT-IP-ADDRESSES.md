@@ -1,5 +1,5 @@
 ---
-  published: true
+  published: false
 ---
 
 As we have seen in previous post ip address is of 32 bits <br>
@@ -36,18 +36,20 @@ same as initial classification here also they have choosen first 8 bits for netw
  
  NOTE:The first octet first bit is fxed and set to 0<br>
  
+ total no. of ip's=2^31 
+total networks 2^7 = 128 networks = 126(practical) * total no. of hosts can be configured /network 2^24 =16 M Hosts(ips)
+
 ## range <br>
  00000000 - 0<br>
  00000001 - 1<br>
      .<br>
      .<br>
  01111111 - 127
-     total networks = 2^7
-     totla no. of hosts can be configured /network =2^24
-range can be 0-127 but the practical range can be 1-126
+
+range can be 0-127 ,but the practical range can be 1-126
 0.0.0.0 , 127.0.0.0 addresses are reserved
 usable ip space: 1.0.0.0 - 126.0.0.0
-
+Used for large networks
 ## class B<br>
 In classB they have choosen first  16 bits for network address remaining 16 bits for host addresses<br>
 
@@ -55,6 +57,9 @@ ffnnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh
 
  
  The first octet first two bits are fxed and set to 10<br>
+ total no. of ip's we get with 30 bits(32-2fixed bits)=2^30
+total networks = 2^14
+totla no. of hosts can be configured /network =2^16
 ## range 
  10000000 - 128<br>
  10000001 - 129<br>
@@ -62,9 +67,9 @@ ffnnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh
      .<br>
      .<br>
  10111111 - 191
- 
-total networks = 2^14
-     totla no. of hosts can be configured /network =2^16
+ total no. of ip's we get with 30 bits(32-2fixed bits)=2^30
+total networks = 2^14 =16K
+totla no. of hosts can be configured /network =2^16
 range can be 128-191
 
 range 128.0.0.0 - 191.255.0.0
