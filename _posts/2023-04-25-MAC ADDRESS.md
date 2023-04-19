@@ -1,3 +1,6 @@
+---
+published: true
+---
 Mac stands for media access control<br>
 every computer,router,mobiles..etc haave mac address<br>
 it is physical address/hardware address cant changed<br>
