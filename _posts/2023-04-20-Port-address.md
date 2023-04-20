@@ -1,10 +1,12 @@
 ---
 published: true
 ---
+In a computer so many processes are runs each processes has a port number,<br>
+port number is used for identify processes on the host<br>
+port numbers are divided into two types<br>
+1.fixed port(ex:25,80)<br>
+2.os assigned dynamic port nos(0-65535)<br>
+so the port no's range can be 0-65535<br>
 
-Port address is used to reach the right process on the host<br>
-before we send data host attaches source,destination port numbers<br>
-if we want to reach a server it sever uses port 80,i.e our destination port<br>
-and we open google chrome to access the server ,google chrome has given a random source port.
-finally the data reach the seerver<br>
-when server reply it swaps the port numbers<br>
+the host attaches source port num,dest port num with the data at transport layer so after the destination computer recieves this data packet it knows which port to send data by placing the destination port number 
+
