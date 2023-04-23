@@ -1,5 +1,5 @@
 ----
-published: false
+published: true
 ----
 
 osi model is just a reference/guideline for network architecure,tcp/ip is the actual model we will use
