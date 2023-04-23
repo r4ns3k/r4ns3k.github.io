@@ -1,6 +1,6 @@
-----
+---
 published: true
-----
+---
 
 osi model is just a reference/guideline for network architecure,tcp/ip is the actual model we will use
 unlike osi refference model tcp/ip model  contains 4 layers only
