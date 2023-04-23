@@ -17,3 +17,19 @@ osi model layers compare to tcp/ip
 
 Aplicaation,Presentation,Session layer combined into one layer called Application layer.<br>
 Data link layer,Physical layer combined into one layer called network access layer.<br>
+
+TCP/IP model is made up of protocols in each layer
+that protocol only make work done
+
+diffrent protocols used in each layers
+
+Application Layer: HTTP,DNS,DHCP,FTP<br>
+Transport Layer: TCP,UDP<br>
+Internet: IPV4,IPV6,ICMP4,ICMPV6<br>
+Network access: PPP,Frame Relay,Ethernet<br>
+
+What each layer does
+
+
+
+
