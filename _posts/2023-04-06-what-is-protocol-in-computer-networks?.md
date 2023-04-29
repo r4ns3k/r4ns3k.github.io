@@ -12,5 +12,6 @@ Ethernet and tcp used for sending and recieving data
 http : to access web
 smtp:for email
 
+several protocols are used to achieve a task
 
 
