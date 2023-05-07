@@ -16,11 +16,11 @@ devices uses computer network to communicate with each other and share resources
 end devices:used to send and recieve traffic ex:computers,mobiles,servers,printers
 intermediary devices:used to control the flow of traffic ex:routers,switches...etc
 ## how diffrent devices connected together
-1.wired ex:ethernet
+1.wired ex:ethernet<br>
 2.wireless ex:wifi
 
 ## types of computer networks
-LAN
+LAN<br>
 WAN
 
 ## Old post
