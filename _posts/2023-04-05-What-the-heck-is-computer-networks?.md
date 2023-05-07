@@ -3,9 +3,30 @@ published: true
 ---
 As we all know computer networking is essential for cybersecurity,here i am writng a small article about computer network.
 
-![network](/images/IMG_20230403_183931.jpg)
 
 ## Computer Network
+
+what is network
+If you want to talk to a friend,you can use mobile ,mobile uses cellular network
+likewise if u want to talk with other computer computer network is used ex:internet
+
+diffrent type of devices connected together to form a network<br>
+devices uses computer network to communicate with each other and share resources.<br>
+## devices used in computer network
+end devices:used to send and recieve traffic ex:computers,mobiles,servers,printers
+intermediary devices:used to control the flow of traffic ex:routers,switches...etc
+## how diffrent devices connected together
+1.wired ex:ethernet
+2.wireless ex:wifi
+
+## types of computer networks
+LAN
+WAN
+
+## Old post
+
+![network](/images/IMG_20230403_183931.jpg)
+
 Set of devices are connected together by help of intermediary device like router/switch  forms a computer network,for example take your home network,if you have router in your home you could connect a desktop using wired connection and bunch of mobiles are access internet via wifi,it is nothing but computer network,Here the device which makes the connection possible is router.
 computer network can be wired or wireless or combination of both.
 ## Why Computer network?
