@@ -14,4 +14,12 @@ smtp:for email
 
 several protocols are used to achieve a task
 
+## what is protocol
+protocol is nothing but set of rules between communicating entities <br>
+in order to communicate they must follow this rules and behave accordingly<br>
+ex:http<br>
+we send http request to a server ,their is aggreement between server and browser to what to do if server gets request<br>
+it understands the request by seeing data,and responds accordingly,then browser task to understand response and display correct data to user
+
+
 
