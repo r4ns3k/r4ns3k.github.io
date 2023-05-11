@@ -7,12 +7,17 @@ If two people wants to talk to each other they must follow some rules which will
 protcol is set of rules which governs the data communication.A protocol defines what is communicated, how it is communicated, and when
 it is communicated. The key elements of a protocol are syntax, semantics, and timing.
 
+
+
 ## some protocols
 Ethernet and tcp used for sending and recieving data
 http : to access web
 smtp:for email
 
 several protocols are used to achieve a task
+
+humans need a language to talk with each other,language contains grammer..etc,likewise computer components are communicate with each other by using protocol.<br>
+ex:web server and browser can coomunicate by same languge here the langugae they used is http.<br>
 
 ## what is protocol
 protocol is nothing but set of rules between communicating entities <br>
