@@ -28,5 +28,15 @@ ex:http<br>
 we send http request to a server ,their is aggreement between server and browser to what to do if server gets request<br>
 it understands the request by seeing data,and responds accordingly,then browser task to understand response and display correct data to user
 
+in case of http the rules are found in rfc documents ,based on those rules only code is implemented for protocol,like what will happen if we use get instead of GET in request all rules are in the form of rfc documents.
+
+incase of http we send just an http request which is called message ,protocol is not just only message it tells how and when messages
+are send(incase of tcp)
+when tcp protocl send syn packet<br>
+wait for ack <br>
+it is the rules specified for tcp.
+
+
+
 
 
