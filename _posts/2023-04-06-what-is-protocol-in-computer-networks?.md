@@ -32,9 +32,8 @@ in case of http the rules are found in rfc documents ,based on those rules only 
 
 incase of http we send just an http request which is called message ,protocol is not just only message it tells how and when messages
 are send(incase of tcp)
-when tcp protocl send syn packet<br>
-wait for ack <br>
-it is the rules specified for tcp.
+when tcp protocl send syn packet<br>,wait for ack <br> ,it is the rules specified for tcp.<br>
+finally any system will send and recieve data there must be a protocol used .
 
 
 
