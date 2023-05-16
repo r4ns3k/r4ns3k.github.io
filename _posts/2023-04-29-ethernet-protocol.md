@@ -11,7 +11,7 @@ layers
 ## what can each layer does
 
 Physical Layer<br>
-different networks with diffrent spped can be still communicate with help of physical layer rules<br>
+devices with different cables with diffrent spped can be still communicate with help of physical layer rules<br>
 cabling.
 
 media access control<br>
