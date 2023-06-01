@@ -23,7 +23,7 @@ intermediary devices:used to control the flow of traffic ex:routers,switches...e
 1.wired <br>
 ex:ethernet<br>
 2.wireless <br>
-ex:wifi
+ex:wifi<br>
 <img src="/images/WiFi_Logo.svg.png" width="100" height="100" >
 ## types of computer networks
 LAN<br>
