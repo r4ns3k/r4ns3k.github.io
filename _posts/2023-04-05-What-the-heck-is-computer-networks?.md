@@ -20,8 +20,10 @@ lan with router
 end devices:used to send and recieve traffic ex:computers,mobiles,servers,printers<br>
 intermediary devices:used to control the flow of traffic ex:routers,switches...etc<br>
 ## how diffrent devices connected together
-1.wired ex:ethernet<br>
-2.wireless ex:wifi
+1.wired <br>
+ex:ethernet<br>
+2.wireless <br>
+ex:wifi
 
 ## types of computer networks
 LAN<br>
