@@ -7,8 +7,9 @@ As we all know computer networking is essential for cybersecurity,here i am writ
 ## Computer Network
 
 what is a network?<br>
-If you want to talk to a friend,you can use mobile ,mobile uses cellular network.
-likewise if a computer want to communicate with other computer computer network is used.
+In general terms we usually say if someone has lot of friends he had a big network,so here group of people called a network.Likewise
+group of communicated devices forms a computer network.
+
 
 a computern network is a collection of communicating devices connected together<br>
 
