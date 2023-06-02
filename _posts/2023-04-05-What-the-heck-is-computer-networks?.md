@@ -13,6 +13,8 @@ likewise if a computer want to communicate with other computer computer network 
 a computern network is a collection of communicating devices connected together<br>
 
 devices uses computer network to communicate with each other and share resources,access internet...etc<br>
+
+Inorder to computers communicate they must have protocol .That we will see in next post.
 <!--
 lan with switch image
 lan with router
