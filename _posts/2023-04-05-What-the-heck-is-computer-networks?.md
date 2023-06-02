@@ -6,7 +6,7 @@ As we all know computer networking is essential for cybersecurity,here i am writ
 
 ## Computer Network
 
-what is network<br>
+what is a network?<br>
 If you want to talk to a friend,you can use mobile ,mobile uses cellular network.
 likewise if a computer want to communicate with other computer computer network is used.
 
@@ -17,8 +17,8 @@ lan with switch image
 lan with router
 -->
 ## devices used in computer network
-end devices:used to send and recieve traffic ex:computers,mobiles,servers,printers<br>
-intermediary devices:used to control the flow of traffic ex:routers,switches...etc<br>
+End Devices:used to send and recieve traffic ex:computers,mobiles,servers,printers<br>
+Intermediary Devices:used to control the flow of traffic ex:routers,switches...etc<br>
 ## how diffrent devices connected together
 1.wired <br>
 ex:ethernet<br>
