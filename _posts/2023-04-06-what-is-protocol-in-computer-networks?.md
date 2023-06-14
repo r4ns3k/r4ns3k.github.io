@@ -1,6 +1,7 @@
 ---
 published: true
 ---
+<!---
 If two people wants to talk to each other they must follow some rules which will make  communication  effective ,rules include  common language known to both parties,grammer,speed ...etc,likewise two computers can talk to each other by help of procols.
 
 ## definition
@@ -17,6 +18,8 @@ smtp:for email
 several protocols are used to achieve a task
 
 ## updated post
+
+--->
 protocol is the set of rules of behaviour,usually in the form of a code that describes the expected behaviour<br>
 humans need a language to talk with each other,language contains grammer..etc,likewise computer components are communicate with each other by using protocol.<br>
 ex:web server and browser can coomunicate by same languge here the langugae they used is http.<br>
