@@ -44,6 +44,12 @@ ex:wifi<br>
 2. WAN
 
 <!--
+pics to be attached
+basic cn between 2 computers
+lan
+lan with internet connection
+-->
+<!--
 ## Old post
 
 ![network](/images/IMG_20230403_183931.jpg)
