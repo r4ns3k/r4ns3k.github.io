@@ -111,6 +111,101 @@ example ip addresses:128.0.0.0,128.0.0.1,...etc
 this class b ipp addresses used for medium networks
 
 # class c
+lets take remaining half from previous binary division and divide into two halves
+
+1 1 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+<hr>
+1 1 1 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+
+lets take first half
+
+1 1 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+
+for the binary division we took third bit which is set to 0,from prviously got binary number first 2 bits are fixed ,so now we got
+110 as prefix which is fixed
+
+first 3 bits are fixed ,remaining bits are 29,with 29 bits we have total addresses 2^29 in class c
+
+nid,hid division
+nid 24,hid 8
+
+in network portion total we have 24 bits,but 3 bits are fixed cant change so finally we have 21 bits only.
+total networks:2^21
+total hosts:2^8
+
+# Range:
+by examining first octet we get range
+
+
+1 1 0 0 0 0 0 0 - 192
+1 1 0 0 0 0 0 1 - 193
+1 1 0 0 0 0 1 0 - 194
+.
+.
+.
+1 1 0 1 1 1 1 1 - 223
+
+range (192-223)
+
+this classc ipp addresses are used for small networks.example home network,small office...etc
+
+# Class D
+we got this below from previous binary divisio
+
+1 1 1 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+
+divide the above binary data into two parts,by taking 1 bit
+
+1 1 1 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+<hr>
+1 1 1 1 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+
+nid,hid
+there's no nid,hid part in classd,addresses uses as it is as whole
+
+total number of ip addresses we get :2^28
+
+# Range:
+
+1 1 1 0 0 0 0 0 - 224
+1 1 1 0 0 0 0 1 - 225
+.
+.
+.
+1 1 1 0 1 1 1 1 - 239
+
+
+used for multicasting
+
+# class E
+lets take remainng half from previous binary division
+
+1 1 1 1 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+
+nid,hid
+there's no nid,hid part in classd,addresses uses as it is as whole
+
+total number of ip addresses we get :2^28
+
+# Range:
+
+1 1 1 1 0 0 0 0 - 240
+1 1 1 1 0 0 0 1 - 241
+.
+.
+.
+1 1 1 1 1 1 1 1 - 255
+
+range (240-255)
+
+used for special purposes
+
+
+
+
+
+
+
 
 
 
