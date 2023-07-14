@@ -8,7 +8,7 @@ ip addressing is clasified into two forms<br>
 we know ip address is of 32 bits,with 32 bits we will get 2^32 = 4294967296 ip addresses. <br>
 we know ip address has two addresses in one address(network address/nid ,host address/hid).<br>
 initially they classified it like this<br>
-<img src="/images/inic.jpg" width="200" height="100"><br>
+<img src="/images/inic.jpg" width="300" height="150"><br>
 so they divided entire 32 bits into 8 bits for NID,remaining 24 bits for HID<br>
 total networks we get 2^8 = 256<br>
 Total hosts/network 2^24 = 16777216<br>
