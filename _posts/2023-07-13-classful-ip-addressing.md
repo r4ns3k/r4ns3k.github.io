@@ -35,7 +35,7 @@ if we choose one bit in binary the space is divided into 2 parts<br>
 1 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
 
 now first bit is choosen adn fixed to zero to divided entire address space into two parts,now we have only 31 bits so total addresses in class a we will get is 2^31.<br>
-
+# NID,HID Division
 <img src="/images/clsa.jpg" width="300" height="150" ><br>
 
 
@@ -83,6 +83,7 @@ here we take second bit for division again entire address space is divided into 
 
 here first two bits are fixed and set to 1 0 ,so the address space contain 30 bits only
 with 30 bits we will get 2^30 addresses
+# NID,HID Division
 
 <img src="/images/clsb.jpg" width="300" height="150" ><br>
 
@@ -128,6 +129,7 @@ for the binary division we took third bit which is set to 0,from prviously got b
 110 as prefix which is fixed
 
 first 3 bits are fixed ,remaining bits are 29,with 29 bits we have total addresses 2^29 in class c
+# NID,HID Division
 
 <img src="/images/clsc.jpg" width="300" height="150" ><br>
 
@@ -164,6 +166,7 @@ divide the above binary data into two parts,by taking 1 bit
 1 1 1 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
 <hr>
 1 1 1 1 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+# NID,HID Division
 
 <img src="/images/clsd.jpg" width="300" height="150" ><br>
 
@@ -187,6 +190,7 @@ used for multicasting
 lets take remainng half from previous binary division
 
 1 1 1 1 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
+# NID,HID Division
 
 <img src="/images/clse.jpg" width="300" height="150" ><br>
 
