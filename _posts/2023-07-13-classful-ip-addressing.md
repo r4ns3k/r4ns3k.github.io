@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ip addressing is clasified into two forms<br>
 1.classfull addresing<br>
