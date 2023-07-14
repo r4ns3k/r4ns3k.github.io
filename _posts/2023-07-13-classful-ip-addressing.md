@@ -39,7 +39,7 @@ now first bit is choosen adn fixed to zero to divided entire address space into 
 nid,hid division
 8 nid,24 hid 
 
-first octet first bit is set to zero so total net works we will get with remaining 7 bits is 2^7<br>
+first octet first bit is set to zero so total networks we will get with remaining 7 bits is 2^7=128(practical number 126)<br>
 total hosts/network = 2^24<br>
 
 # Range:
@@ -152,6 +152,8 @@ range (192-223)
 
 this classc ipp addresses are used for small networks.example home network,small office...etc
 
+class a,b,c are used for hosts
+
 # Class D
 we got this below from previous binary divisio
 
@@ -201,7 +203,7 @@ total number of ip addresses we get :2^28
 
 range (240-255)
 
-used for special purposes
+this ip's are reserved
 
 
 
