@@ -8,7 +8,7 @@ ip addressing is clasified into two forms<br>
 we know ip address is of 32 bits,with 32 bits we will get 2^32 = 4294967296 ip addresses. <br>
 we know ip address has two addresses in one address(network address/nid ,host address/hid).<br>
 initially they classified it like this<br>
-<img src="/images/inic.jpg" width="300" height="150"><br>
+<img src="/images/inic.jpg" width="300" height="150" ><br>
 so they divided entire 32 bits into 8 bits for NID,remaining 24 bits for HID<br>
 total networks we get 2^8 = 256<br>
 Total hosts/network 2^24 = 16777216<br>
@@ -36,8 +36,8 @@ if we choose one bit in binary the space is divided into 2 parts<br>
 
 now first bit is choosen adn fixed to zero to divided entire address space into two parts,now we have only 31 bits so total addresses in class a we will get is 2^31.<br>
 
-nid,hid division
-8 nid,24 hid 
+<img src="/images/clsa.jpg" width="300" height="150" ><br>
+
 
 first octet first bit is set to zero so total networks we will get with remaining 7 bits is 2^7=128(practical number 126)<br>
 total hosts/network = 2^24<br>
@@ -84,8 +84,8 @@ here we take second bit for division again entire address space is divided into 
 here first two bits are fixed and set to 1 0 ,so the address space contain 30 bits only
 with 30 bits we will get 2^30 addresses
 
-nid,hid,division
-16 nid,16hid
+<img src="/images/clsb.jpg" width="300" height="150" ><br>
+
 
 first octet first two bits set to 1 0 with remianing avialble bits in nid is 14 
 total networks of class b : 2^14
@@ -129,8 +129,8 @@ for the binary division we took third bit which is set to 0,from prviously got b
 
 first 3 bits are fixed ,remaining bits are 29,with 29 bits we have total addresses 2^29 in class c
 
-nid,hid division
-nid 24,hid 8
+<img src="/images/clsc.jpg" width="300" height="150" ><br>
+
 
 in network portion total we have 24 bits,but 3 bits are fixed cant change so finally we have 21 bits only.
 total networks:2^21
@@ -165,7 +165,8 @@ divide the above binary data into two parts,by taking 1 bit
 <hr>
 1 1 1 1 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
 
-nid,hid
+<img src="/images/clsd.jpg" width="300" height="150" ><br>
+
 there's no nid,hid part in classd,addresses uses as it is as whole
 
 total number of ip addresses we get :2^28
@@ -187,7 +188,8 @@ lets take remainng half from previous binary division
 
 1 1 1 1 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 . 0 0 0 0 0 0 0 0 <br>
 
-nid,hid
+<img src="/images/clse.jpg" width="300" height="150" ><br>
+
 there's no nid,hid part in classd,addresses uses as it is as whole
 
 total number of ip addresses we get :2^28
