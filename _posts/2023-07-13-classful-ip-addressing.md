@@ -41,6 +41,7 @@ now first bit is choosen adn fixed to zero to divided entire address space into 
 
 first octet first bit is set to zero so total networks we will get with remaining 7 bits is 2^7=128(practical number 126)<br>
 total hosts/network = 2^24<br>
+we can configure only 2^24-2 hosts/network
 
 ### Range:
 by seeing first octet if first bit is start from 0 in binary we can say it belongs to class a<br>
@@ -91,6 +92,7 @@ with 30 bits we will get 2^30 addresses
 first octet first two bits set to 1 0 with remianing avialble bits in nid is 14 
 total networks of class b : 2^14
 totals no. of hosts/network: 2^16
+we can configure only 2^16-2 hosts/network
 
 ### Range:
 by seeing first octet if first bit is start from 1 0 in binary we can say it belongs to class b<br>
@@ -137,6 +139,8 @@ first 3 bits are fixed ,remaining bits are 29,with 29 bits we have total address
 in network portion total we have 24 bits,but 3 bits are fixed cant change so finally we have 21 bits only.
 total networks:2^21
 total hosts:2^8
+we can configure only 2^8-2 hosts/network
+
 
 ### Range:
 by examining first octet we get range
